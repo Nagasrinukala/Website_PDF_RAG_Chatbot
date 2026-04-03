@@ -12,20 +12,16 @@ This project solves that problem by building a RAG-based chatbot that can read w
 # **Upload files**
 <img width="660" height="345" alt="image" src="https://github.com/user-attachments/assets/56bc1b16-e6d9-4f54-891f-3b2edd877dc3" />
 
+### **Explain each file**
+<img width="675" height="284" alt="image" src="https://github.com/user-attachments/assets/088fa578-0194-4d88-a52a-16dda57d28af" />
+<img width="700" height="368" alt="image" src="https://github.com/user-attachments/assets/f4418407-2b92-49e5-aa9d-603928de738b" />
+
+
 
 ## **Workflow:**
 The project uses a Retrieval-Augmented Generation (RAG) architecture where documents are converted into embeddings and stored in a vector database. When a user asks a question, relevant content is retrieved and passed to the LLM to generate an accurate answer.
 
-1.User enters Website URLs
-2.User uploads PDF
-3.System scrapes website content
-4.System reads PDF text
-5.Text is converted into chunks
-6.Embeddings are created
-7.Stored in Vector Database
-8.User asks question
-9.Relevant chunks retrieved
-10.LLM generates answer
+<img width="642" height="269" alt="image" src="https://github.com/user-attachments/assets/1cdb43e1-d1a0-4cff-a6bb-d2b904d7dab9" />
 
 ## **Technologies Used**
 **Programming & Frameworks**
