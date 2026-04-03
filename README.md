@@ -37,3 +37,5 @@ The project uses a Retrieval-Augmented Generation (RAG) architecture where docum
 **LLM & API**
 9.Groq – LLM Inference API
 10.Open Source LLM (LLaMA / Mixtral via Groq)
+
+
