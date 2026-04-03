@@ -1,0 +1,12 @@
+gradio
+beautifulsoup4
+requests
+openai
+python-dotenv
+pypdf
+lxml
+sentence-transformers
+faiss-cpu
+numpy
+torch
+transformers
