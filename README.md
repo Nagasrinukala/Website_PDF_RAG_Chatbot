@@ -2,6 +2,10 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that can answer questions from website URLs and PDF documents using embeddings and LLM.
 
+## Live Demo
+HuggingFace Space:
+https://huggingface.co/spaces/Nagasrinukala/Website_RAG_Chatbot
+
 # **Project UI**
 <img width="1353" height="561" alt="image" src="https://github.com/user-attachments/assets/27a6773b-7c3b-4dd3-bf16-8cfd0b5e3b67" />
 
@@ -37,5 +41,32 @@ The project uses a Retrieval-Augmented Generation (RAG) architecture where docum
 **LLM & API**
 9.Groq – LLM Inference API
 10.Open Source LLM (LLaMA / Mixtral via Groq)
+
+
+## Usage
+
+1. Enter website URLs (comma separated) in the input box.
+2. Upload a PDF document.
+3. Click **Load Data** to process website and PDF content.
+4. Ask questions in the chatbot input box.
+5. The chatbot will answer based on the website and PDF content using RAG.
+
+### Example Questions
+- Summarize the website content
+- What is explained in the PDF?
+- Give key points from the document
+- Explain the main topic
+
+## Future Improvements
+
+- Support multiple PDF uploads
+- Add chat history memory
+- Add document source citations
+- Improve UI design
+- Use more advanced LLM models
+- Add user authentication
+- Deploy using Docker
+- Add streaming responses
+- Add database storage for documents
 
 
