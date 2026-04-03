@@ -10,24 +10,8 @@ Many chatbots only answer general knowledge questions. They cannot answer questi
 This project solves that problem by building a RAG-based chatbot that can read website content and PDF documents and answer user questions based on that data.
 
 # **Upload files**
-Website_RAG_Chatbot/
-│
-├── assets/
-│   └── background.jpg
-│
-├── website_chatbot/
-│   ├── __init__.py
-│   ├── chatbot.py
-│   ├── config.py
-│   ├── pdf_reader.py
-│   ├── rag.py
-│   ├── scraper.py
-│   └── vector_store.py
-│
-├── .gitattributes
-├── README.md
-├── app.py
-├── requirements.txt
+<img width="660" height="345" alt="image" src="https://github.com/user-attachments/assets/56bc1b16-e6d9-4f54-891f-3b2edd877dc3" />
+
 
 ## **Workflow:**
 The project uses a Retrieval-Augmented Generation (RAG) architecture where documents are converted into embeddings and stored in a vector database. When a user asks a question, relevant content is retrieved and passed to the LLM to generate an accurate answer.
